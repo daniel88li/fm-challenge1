@@ -102,7 +102,7 @@ div > h4 {
 button {
   width: 100%;
   height: 3rem;
-  color: var(--neutral-colour1);
+  color: white;
   background-color: var(--primary-colour2);
   font-size: 16px;
   margin-top: auto;
@@ -113,6 +113,11 @@ button {
 
 button:active {
   outline: none;
+}
+
+button:hover {
+  color: black;
+  background-color: hsl(71, 90%, 70%);
 }
 
 /* about box */
